@@ -1,0 +1,31 @@
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+/* common properties for slideshow buttons */
+a.slide-button
+{
+	position:absolute;
+	margin-top:-210px;
+	background-color:transparent;
+	opacity:0.5;
+}
+
+/* hover behavior of slideshow buttons */
+a.slide-button:hover {
+	opacity:1.0;
+}
+
+/* properties of previous slideshow button */
+a.slide-button#prev-button {
+	margin-left:15px;
+}
+
+
+/* properties of next slideshow button */
+a.slide-button#next-button {
+	margin-left:960px;
+}
+
