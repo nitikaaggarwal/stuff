@@ -64,3 +64,38 @@ table.imagetable img
 {
 	max-width: 980px;
 }
+
+/* for tables containing team bio */
+table.team {
+	margin-left: auto;
+	margin-right: auto;
+	font-size:15px;
+	line-height: 25px;
+}
+
+table.team td {
+	  display: table-cell;
+		vertical-align: middle; 
+		padding-bottom: 40px;
+}
+
+table.team td.double {
+	  display: table-cell;
+		vertical-align: top;
+}
+
+table.team td.left {
+	text-align: left;
+}
+
+table.team td.right {
+	text-align: right;
+}
+
+table.team td.top {
+	vertical-align: top;
+}
+
+img.smallteam {
+	max-width: 100px;
+}
